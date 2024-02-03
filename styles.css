@@ -1,4 +1,4 @@
-.home .max-width .home-content .text-3 .panku{
+.home1 .max-width .home-content .text-3 .panku{
     color: #d15d10;
 }
 
@@ -283,7 +283,7 @@ html{
  }
 /* home section start  */
 
-.home{
+.home1{
     display: flex;
     height: 100vh;
     color:#fff;
@@ -295,32 +295,32 @@ html{
     /* background-attachment: fixed; */
 }
 
-.home .max-width{
+.home1 .max-width{
     margin: auto 0 auto 40px ;
 }
-.home .home-content .text-1{
+.home1 .home-content .text-1{
     font-size: 27px;
 }
-.home .home-content .text-2{
+.home1 .home-content .text-2{
     font-size: 75px;
     font-weight: 600;
     margin-left: -3px;
 
 }
 
-.home .home-content .text-3{
+.home1 .home-content .text-3{
     font-size: 40px;
     margin: 5px 0;
 
 }
-.home .home-content .text-3 span{
+.home1 .home-content .text-3 span{
     /* color: rgb(35, 48, 237); */
     color: rgb(35, 48, 237);
     font-weight: 500;
 
 }
 
-.home .home-content a{
+.home1 .home-content a{
     display: inline-block;
     background: rgb(35, 48, 237);
     color: #fff;
@@ -332,7 +332,7 @@ html{
     transition: all 0.4 ease;
 
 }
-.home .home-content a:hover{
+.home1 .home-content a:hover{
     color:  rgb(35, 48, 237);
     background: none; 
 }
@@ -887,7 +887,7 @@ section .title::after{
 
 /* responsive media query start */
 @media(max-width: 1400px){
-    .home .max-width{
+    .home1 .max-width{
         margin-left: 0px;
     }
     .about .about-content .left img{
@@ -994,18 +994,18 @@ section .title::after{
 
     }
 
-    .home .home-content .text-2{
+    .home1 .home-content .text-2{
         font-size: 70px;
         
     
     }
     
-    .home .home-content .text-3{
+    .home1 .home-content .text-3{
         font-size: 35px;
       
     
     }
-    .home .home-content a{
+    .home1 .home-content a{
         font-size: 23px;
         padding: 10px 30px;
     }
@@ -1065,18 +1065,18 @@ section .title::after{
         padding: 0 23px;
      }
     
-     .home .home-content .text-2{
+     .home1 .home-content .text-2{
         font-size: 60px;
         
     
     }
     
-    .home .home-content .text-3{
+    .home1 .home-content .text-3{
         font-size: 32px;
       
     
     }
-    .home .home-content a{
+    .home1 .home-content a{
         font-size: 20px;
        
     }
@@ -1091,13 +1091,13 @@ section .title::after{
     
     
     
-     .home .home-content .text-2{
+     .home1 .home-content .text-2{
         font-size: 50px;
         
     
     }
     
-    .home .home-content .text-3{
+    .home1 .home-content .text-3{
         font-size: 27px;
       
     
