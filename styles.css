@@ -1,4 +1,8 @@
-
+#projects {
+    display: block; 
+    visibility: visible; 
+    opacity: 1; 
+  }
 
 .home1 .max-width .home-content .text-3 .panku{
     color: #d15d10;
