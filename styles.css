@@ -90,12 +90,12 @@
 .statistics-text {
     font-size: 24px;
     font-weight: bold;
-    color: #333; /* Black */
+    color: #333; 
 }
 
 .statistics-description {
     font-size: 14px;
-    color: #666; /* Gray */
+    color: #666; 
     margin-top: 5px;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -105,8 +105,8 @@
 
 /* Blue theme */
 .statistics-card {
-    background-color: #3498db; /* Blue */
-    border: 1px solid #2980b9; /* Darker Blue */
+    background-color: #3498db; 
+    border: 1px solid #2980b9; 
 }
 
 .statistics-card:hover {
@@ -116,7 +116,7 @@
 
 .statistics-text,
 .statistics-description {
-    color: #fff; /* White */
+    color: #fff; 
 }
 
 
@@ -188,7 +188,7 @@ html{
      margin: 5px;
 }
 .link-div div:hover{
-   background-color: rgb(35, 48, 237);
+   background-color: rgb(78, 89, 233);
    border-radius: 5px;
 }
 .max-width{
@@ -204,14 +204,14 @@ html{
     width: 100%;
     padding: 30px 0;
     z-index: 999;
-    /* background-color: rgb(35, 48, 237); */
+    /* background-color: rgb(78, 89, 233); */
     font-family: 'Ubuntu',sans-serif;
     transition: all 0.3s ease;
 }
 #main-nav.sticky{
     padding: 15px 0;
-    /* background-color: rgb(35, 48, 237); */
-    background-color: rgb(35, 48, 237);
+    /* background-color: rgb(78, 89, 233); */
+    background-color: rgb(78, 89, 233);
 
 }
 #main-nav .max-width{
@@ -242,8 +242,8 @@ html{
     font-weight: 500px;
     margin-left: 25px;
   transition: color 0.3s;
-  /* background-color: rgb(35, 48, 237); */
-  /* background-color: rgb(35, 48, 237); */
+  /* background-color: rgb(78, 89, 233); */
+  /* background-color: rgb(78, 89, 233); */
   background: transparent;
   padding: 10px;
   border-radius: 10px;
@@ -251,11 +251,6 @@ html{
 
 #resume-button-{
     border: none;
-    /* background-color:rgb(35, 48, 237); */
-    /* padding: 10px; */
-    /* border-radius: 5px; */
-    /* color: #fff; */
-    /* font-size: 18px; */
     display: none;
     font-weight: 500px;
 }
@@ -266,10 +261,6 @@ html{
     transition: color 0.3s;
 }
 
-#main-nav .menu li a:hover{
-      /* color: grey; */
-
-}
 #main-nav.sticky .menu li a:hover{
     color: rgb(14, 14, 14);
     transition: color 0.3s;
@@ -316,26 +307,26 @@ html{
 
 }
 .home1 .home-content .text-3 span{
-    /* color: rgb(35, 48, 237); */
-    color: rgb(35, 48, 237);
+    /* color: rgb(78, 89, 233); */
+    color: rgb(78, 89, 233);
     font-weight: 500;
 
 }
 
 .home1 .home-content a{
     display: inline-block;
-    background: rgb(35, 48, 237);
+    background: rgb(78, 89, 233);
     color: #fff;
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid rgb(35, 48, 237);
+    border: 2px solid rgb(78, 89, 233);
     transition: all 0.4 ease;
 
 }
 .home1 .home-content a:hover{
-    color:  rgb(35, 48, 237);
+    color:  rgb(78, 89, 233);
     background: none; 
 }
 
@@ -345,6 +336,7 @@ section{
 }
 .about {
   /* background: #d4dbdf; */
+  background: #e6e3e6;
   
 }
 .about, .skills, .projects,.github,.contact,footer{
@@ -383,7 +375,7 @@ section .title::before{
 }
 section .title::after{
    
-    color: rgb(35, 48, 237);
+    color: rgb(78, 89, 233);
     position: absolute;
     bottom: -12px;
     left: 50%;
@@ -424,8 +416,8 @@ section .title::after{
     margin-bottom: 10px;
 }
 .about .about-content .right .text span{
-    /* color: rgb(35, 48, 237); */
-    color:rgb(35, 48, 237);
+    /* color: rgb(78, 89, 233); */
+    color:rgb(78, 89, 233);
 }
 .about .about-content .right p{
     text-align: justify;
@@ -434,14 +426,14 @@ section .title::after{
 }
 .about .about-content .right a{
     display: inline-block;
-    background: rgb(35, 48, 237);
+    background: rgb(78, 89, 233);
     color: #fff;
     font-size: 20px;
     font-weight: 400;
     padding: 10px 30px;
   
     border-radius: 6px;
-    border: 2px solid rgb(35, 48, 237);
+    border: 2px solid rgb(78, 89, 233);
     transition: all 0.4 ease;
 }
 .about .about-content .right button{
@@ -450,7 +442,7 @@ section .title::after{
 }
 .about .about-content .right a:hover{
     background: none;
-    color: rgb(35, 48, 237);
+    color: rgb(78, 89, 233);
     background: #fff;
 }
 
@@ -478,7 +470,7 @@ section .title::after{
 
 }
 .skills-card{
-    /* background-color:rgb(35, 48, 237); */
+    /* background-color:rgb(78, 89, 233); */
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     background: var(--bg-color);
     padding: 35px 25px;
@@ -515,7 +507,7 @@ section .title::after{
     transform: translateY(-8px);
     cursor: pointer;
   
-    /* background-color: rgb(35, 48, 237); */
+    /* background-color: rgb(78, 89, 233); */
 }
 
 
@@ -568,7 +560,7 @@ section .title::after{
 
 } */
 .projects .carousel .project-card:hover{
-    /* background: rgb(35, 48, 237); */
+    /* background: rgb(78, 89, 233); */
 }
 /* .projects .carousel .project-card:hover .box{
    transform: scale(1.05);
@@ -623,7 +615,7 @@ section .title::after{
     width: 100%;
     object-fit: cover; */
     /* border-radius: 50%; */
-    /* border: 5px solid rgb(35, 48, 237);
+    /* border: 5px solid rgb(78, 89, 233);
     transition: all 0.3s ease;
 } */
 
@@ -633,7 +625,7 @@ section .title::after{
     width: 100%;
     object-fit: cover;
     /* border-radius: 50%; */
-    /* border: 5px solid rgb(35, 48, 237); */
+    /* border: 5px solid rgb(78, 89, 233); */
     transition: all 0.3s ease;
 }
 
@@ -657,7 +649,7 @@ section .title::after{
     margin: 0 5px;
     outline: none! important;
     border-radius: 50%;
-    border: 2px solid rgb(35, 48, 237)! important;
+    border: 2px solid rgb(78, 89, 233)! important;
     transition: all 0.3s ease
 
 }
@@ -669,7 +661,7 @@ section .title::after{
 .owl-dot.active,
 
 .owl-dot.active{
-   background-color: rgb(35, 48, 237)! important;
+   background-color: rgb(78, 89, 233)! important;
 }
 
 .project-tech-stack{
@@ -729,7 +721,7 @@ section .title::after{
 .github{
     color: #444;
 
-    background:  #fff;
+    background: #ebe6eb;
 }
 .github .title::before{
     background: #fff;
@@ -783,7 +775,7 @@ section .title::after{
  }
  .contact .contact-content .row i{
      font-size :25px;
-     color: rgb(35, 48, 237);
+     color: rgb(78, 89, 233);
      transition: all 0.5s ease
  
  }
@@ -848,8 +840,8 @@ section .title::after{
  .contact .right form .button button{
     height: 100%;
     width: 100%;
-    border: 2px solid rgb(35, 48, 237);
-    background: rgb(35, 48, 237);
+    border: 2px solid rgb(78, 89, 233);
+    background: rgb(78, 89, 233);
     color: #fff;
     font-size: 20px;
     font-weight: 500;
@@ -859,7 +851,7 @@ section .title::after{
  }
 
  .contact .right form .button button:hover{
-    color: rgb(35, 48, 237);
+    color: rgb(78, 89, 233);
     background: none;
  }
 
@@ -881,7 +873,7 @@ section .title::after{
     border-radius: 8px;
     font-size: 15px;
   
-    background-color: rgb(35, 48, 237);
+    background-color: rgb(78, 89, 233);
     color: #fff;
     /* color: #FFD369; */
 }
@@ -947,7 +939,7 @@ section .title::after{
         
     }
     #main-nav.sticky .menu li a:hover{
-        color:rgb(35, 48, 237);
+        color:rgb(78, 89, 233);
         transition: color 0.3s;
         
      }
@@ -1040,7 +1032,7 @@ section .title::after{
 
      }
      #main-nav.sticky .menu li a:hover{
-        color:rgb(35, 48, 237);
+        color:rgb(78, 89, 233);
         transition: color 0.3s;
         
      }
@@ -1055,7 +1047,7 @@ section .title::after{
         font-size: 23px;
      }
      #resume-button-1:hover{
-        color:rgb(35, 48, 237);
+        color:rgb(78, 89, 233);
         transition: color 0.3s;
      }
     
@@ -1083,7 +1075,7 @@ section .title::after{
        
     }
     #main-nav.sticky .menu li a:hover{
-        color:rgb(35, 48, 237);
+        color:rgb(78, 89, 233);
         transition: color 0.3s;
         
      }
@@ -1105,7 +1097,7 @@ section .title::after{
     
     }
     #main-nav.sticky .menu li a:hover{
-        color:rgb(35, 48, 237);
+        color:rgb(78, 89, 233);
         /* color: #FFD369; */
         transition: color 0.3s;
         
