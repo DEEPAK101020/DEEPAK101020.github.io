@@ -1,3 +1,5 @@
+
+
 .home1 .max-width .home-content .text-3 .panku{
     color: #d15d10;
 }
@@ -224,7 +226,7 @@ html{
      font-weight: 600;
 }
 #main-nav .logo a span{
-    color: rgb(35, 48, 237);
+    color: rgb(55, 35, 237);
     transition: all 0.3s ease;
 }
 #main-nav.sticky .logo a span{
